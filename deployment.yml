@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: my-container
-          image: foresterstest.azurecr.io/foresterstest.azurecr.io:latest
+          image: :latest
           ports:
             - containerPort: 8080
 
